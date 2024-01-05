@@ -1,4 +1,7 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+# Ruby things
+Gemfile.lock
+docs/vendor
+docs/_site
+
+#VSCode Settings
+.vscode/

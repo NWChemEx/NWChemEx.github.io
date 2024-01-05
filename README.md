@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+# NWChemEx Community Website
 
-You can use the [editor on GitHub](https://github.com/NWChemEx-Project/NWChemEx-Project.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This repo house the NWChemEx Community website. Think of this as the front page
+of all things pertaining to the NWChemEx Community. It's meant to be a:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- a high-level overview of the NWChemEx community,
+- a place for new community members to be come acclimated, and
+- a dispatch point to other more specialized online resources
 
-### Markdown
+## Building the Website Locally
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+GitHub pages is designed for use with Jekyll, which is a ruby package for
+building static websites using GitHub flavored markdown. Don't worry you
+shouldn't need to know ruby at any stage of website maintenance as long as you
+follow these command-line instructions:
 
-```markdown
-Syntax highlighted code block
+1. Ensure `ruby-bundler` is installed. On Ubuntu this is done by:
 
-# Header 1
-## Header 2
-### Header 3
+   ```.sh
+   sudo apt install ruby-dev ruby-bundler
+   ```
 
-- Bulleted
-- List
+2. Clone this repo, i.e.,
 
-1. Numbered
-2. List
+   ```.sh
+   git clone https://github.com/NWChemEx/NWChemEx.github.io
+   ```
 
-**Bold** and _Italic_ and `Code` text
+3. Install the dependencies via bundler. This is done by:
 
-[Link](url) and ![Image](src)
-```
+   ```.sh
+   cd NWChemEx.github.io/docs
+   bundle config set path 'vendor/bundle'
+   bundle install
+   ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+4. Launch the website server via:
 
-### Jekyll Themes
+   ```.sh
+   bundle exec jekyll serve
+   ```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NWChemEx-Project/NWChemEx-Project.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+5. View the website by following the instructions from the previous command (
+   should be something like opening http://127.0.0.1:4000 in a web browser).
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+6. Start adding/modifying content. The local copy of the website should
+   automatically update after you modify a file. You will likely need to reload
+   the page to see the changes. The caveat to this is if you modify
+   `docs/_config.yml`; if you modify that file you will have to stop the current
+   server and repeat step 4.
