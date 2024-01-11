@@ -1,6 +1,6 @@
 # NWChemEx Community Website
 
-This repo house the NWChemEx Community website. Think of this as the front page
+This repo houses the NWChemEx Community website. Think of this as the front page
 of all things pertaining to the NWChemEx Community. It's meant to be a:
 
 - a high-level overview of the NWChemEx community,
