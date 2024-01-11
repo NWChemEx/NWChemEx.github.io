@@ -4,7 +4,7 @@ This repo house the NWChemEx Community website. Think of this as the front page
 of all things pertaining to the NWChemEx Community. It's meant to be a:
 
 - a high-level overview of the NWChemEx community,
-- a place for new community members to be come acclimated, and
+- a place for new community members to become acclimated, and
 - a dispatch point to other more specialized online resources
 
 ## Building the Website Locally

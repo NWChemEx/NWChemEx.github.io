@@ -1,4 +1,10 @@
-# Website authors
+# Website authors (alphabetical by key)
+
+nwx_board:
+  name    : "NWChemEx Board Members"
+  avatar  : "/assets/stock_avatar.png"
+  bio     : "Members of the NWChemEx board"
+  location: "USA"
 
 ryan_richard:
   name             : "Ryan M. Richard"
