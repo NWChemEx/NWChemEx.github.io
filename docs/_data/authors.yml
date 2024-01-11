@@ -1,0 +1,15 @@
+# Website authors
+
+ryan_richard:
+  name             : "Ryan M. Richard"
+  avatar           : "/assets/stock_avatar.png"
+  bio              : >-
+                     Ames National Laboratory Scientist and Adjunct Professor of
+                     chemistry at Iowa State University. Interested in quantum
+                     chemistry, computer science, and software engineering.
+  location         : "Ames, IA"
+  email            : "rrichard@ameslab.gov"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ryanmrichard"
