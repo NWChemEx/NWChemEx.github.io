@@ -63,23 +63,35 @@ arise in which board voting results in a tie (e.g., if a member recuses
 themself). In the event of a tie, the advisors to the board will collectively
 be given one vote to break the tie.
 
+## When does the board meet?
 
-When does the board meet?
-- Quarterly, send out poll
+The decision was made that board will meet quarterly. Roughly every three months
+a poll will be sent out to board members to find a time slot. In particular this
+means that meetings will not always occur on the same date or have a set number
+of days between them. With the NWChemEx Community just starting, it was also
+recognized that board meetings may be needed more often initially.
 
-How does one join the board?
-- Rely on board decision
-- Board member nomination
+## How does one join the board?
 
-Board structure?
-- Growing if need for it.
-- Obvious new stakeholder/organization
+Adding a member to the board will be a board decision and will follow the same
+procedures used to make other board decisions. Nominations for new board
+members will come from existing board members.
 
-Codeowners?
-- Repos passionate about, list
+## Board structure?
 
-Vision?
-- 1.0 by end of January
-- Motivation for 1.0 description.
+The board size should be allowed to grow/shrink as needed. The overall goal of
+board membership should be to ensure that each stakeholder organization has
+representation. 
 
-Next meeting post-1.0 focusing on vision.
+## What is the initial vision?
+
+The initial vision is to have a 1.0 of NWChemEx by the end of January. A GitHub
+[project board](https://github.com/orgs/NWChemEx/projects/25) to track progress
+towards this goal has been created. Ryan has been charged with writing up a
+formal vision of what this 1.0 entails and adding it to the 
+[.github](https://github.com/NWChemEx/.github) repo.
+
+## When is the next board meeting?
+
+Priority is getting a 1.0 out. The next board meeting should occur after the
+1.0 and will focus on the next phase of shaping the NWChemEx Community vision.
