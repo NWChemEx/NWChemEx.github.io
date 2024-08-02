@@ -13,15 +13,14 @@ ryan_m_richard:
     btn_class: "btn--primary"
 ---
 
-The NWChemEx community is made up of two types of members: authors and
-contributors.
+The NWChemEx development community is made up of two types of members: authors and developers.
+
+# Contributors
+
+TODO: list contributors
 
 # Authors
 
 {%include feature_row id="ryan_m_richard" type="left" %}
 
 TODO: list other authors
-
-# Contributors
-
-TODO: list contributors

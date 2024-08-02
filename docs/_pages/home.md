@@ -6,35 +6,41 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/logos/logo_large.png
-gallery:
-  - image_path: /_pages/assets/overview.png
-    title: "Overview of the NWChemEx Community"
-    alt: "Overview"
-    url: "/overview/"
-  - image_path: /_pages/assets/community.png
-    title: "Meet the members of the NWChemEx Community."
-    alt: "Community"
-    url: "/community_members/"
+gallery1:
+  - image_path: /assets/logos/nwx_community.png
+    title: "Community Member Information"
+    alt: "Information for NWChemEx community members"
+    url: "/community_member/"
+  - image_path: /assets/logos/nwx_developer.png
+    title: "NWChemEx Developer Information"
+    alt: "Information for NWChemEx developers"
+    url: "/developer/"
+  - image_path: /assets/logos/nwx_author.png
+    title: "Author Information"
+    alt: "Author"
+    url: "/author/"
+gallery2:
   - image_path: /_pages/assets/plugins.png
     title: "Explore the plugins in the NWChemEx Community"
     alt: "Plugins"
     url: "/plugins/"
-gallery2:
-  - image_path: /_pages/assets/news.png
-    title: "NWChemEx Community News, Highlights, and Shout-Outs"
-    alt: "News"
-    url: "/news/"
   - image_path: /_pages/assets/tutorials.png
     title: "Tutorials."
     alt: "Tutorials"
     url: "/tutorials/"
+  - image_path: /_pages/assets/community.png
+    title: "Meet the members of the NWChemEx Community."
+    alt: "Community"
+    url: "/community_members/"
 ---
 
 This website is under heavy construction at the moment.
 {: .notice--warning}
 
-Welcome to the home of the NWChemEx Community!
+Choose your experience. Don't know which experience you want? Visit our tutorial
+on [NWChemEx Community Roles](/tutorials/community_overview).
 
-{% include gallery %}
+{% include gallery id="gallery1" %}
 
 {% include gallery id="gallery2" %}
+
