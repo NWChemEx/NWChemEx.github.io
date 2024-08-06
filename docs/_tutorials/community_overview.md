@@ -3,6 +3,7 @@ title: "Overview of the NWChemEx Community"
 author: ryan_richard
 tags: community
 classes: wide
+image: /assets/community_overview.png
 ---
 
 Not everyone uses NWChemEx in the same way. Some people simply want to run
@@ -61,8 +62,12 @@ use the roles either.
 
 Absolutely! The badges, i.e., these things:
 
-![NWChemEx Community Member](/assets/logos/nwx_community.png)
-![NWChemEx Developer](/assets/logos/nwx_developer.png)
-![NWChemEx Author](/assets/logos/nwx_author.png)
+| ![NWChemEx Community Member](/assets/logos/nwx_community.png) | ![NWChemEx Developer](/assets/logos/nwx_developer.png) | ![NWChemEx Author](/assets/logos/nwx_author.png) |
 
-are designed to be put in slide decks or personal websites for this reason.
+are designed to be put in slide decks or on personal websites for this very
+reason. Generally speaking, you're free to use these badges however you like.
+
+The caveat here is the usual Government sponsor language, i.e., the use of 
+the logos can not be used in a way that implies/suggests endorsement, support,
+etc. from the Department of Energy, the United States Government, or any other NWChemEx sponsor (unless of  course you actually have such an endorsement). 
+{: .notice}
