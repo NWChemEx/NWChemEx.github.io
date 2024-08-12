@@ -15,9 +15,10 @@ ryan_m_richard:
 
 The NWChemEx development community is made up of two types of members: authors and developers.
 
-# Contributors
-
-TODO: list contributors
+# Developers
+If you would like to be included in the developer section please open a pull
+request.
+{: .notice}
 
 # Authors
 

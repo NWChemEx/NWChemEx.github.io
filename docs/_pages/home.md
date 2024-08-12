@@ -10,7 +10,7 @@ gallery1:
   - image_path: /assets/logos/nwx_community.png
     title: "Community Member Information"
     alt: "Information for NWChemEx community members"
-    url: "/community_member/"
+    url: "/community/"
   - image_path: /assets/logos/nwx_developer.png
     title: "NWChemEx Developer Information"
     alt: "Information for NWChemEx developers"
