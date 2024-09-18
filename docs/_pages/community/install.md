@@ -131,3 +131,37 @@ Unless you are comfortable with CMake, we strongly recommend deleting the
 build directory every time you reconfigure. Particularly if the configuration
 was not successful.
 {: .notice--warning} 
+
+## Step 5: Build NWChemEx
+
+If configuration was successful, you should be able to build NWChemEx by:
+
+```bash
+cmake --build <build_directory> --parallel <jobs>
+```
+
+where `<build_directory>` is the path to the build directory you specified in
+Step 4 and `<job>` is the number of cores you want to use for compiling.
+
+## Step 6: (Optional) Run the Test Suite
+
+Assuming you configured with the CMake option `BUILD_TESTING` set to a truthy
+value, you will now be able to run the test suite via:
+
+```bash
+cmake --build <build_directory> --target test
+```
+
+If you did not set `BUILD_TESTING` to a truthy value, then this command will
+not find any tests.
+
+## Step 7: Install
+
+Now all that is left is to install NWChemEx. This is done via:
+
+```bash
+cmake --build <build_directory> --target install
+```
+
+Depending on the value you picked for `CMAKE_INSTALL_PREFIX` you may need to
+run this command with administrative privileges.
